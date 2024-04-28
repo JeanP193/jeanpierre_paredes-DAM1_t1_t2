@@ -1,0 +1,44 @@
+
+.header-custom {
+    background-color: #007bff;
+    color: #fff;
+}
+
+body {
+    background-color: #f5f5dc !important; 
+}
+
+.btn-custom {
+    background-color: #6c757d; 
+    border-color: #6c757d;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .some-custom-layout {
+        padding: 20px;
+    }
+}
+
+.producto {
+    margin: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.producto {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.producto-carrito {
+    margin-bottom: 10px; 
+}

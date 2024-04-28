@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Productos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div id="filtros" class="container mb-4 mt-4">
+            <div class="row">
+                <div class="col">
+                    <input type="number" id="precioMinimo" placeholder="Precio Mínimo" class="form-control">
+                </div>
+                <div class="col">
+                    <select id="categoria" class="form-control">
+                        <option value="">Todas las categorías</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <select id="marca" class="form-control">
+                        <option value="">Todas las marcas</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <button id="aplicarFiltro" class="btn btn-primary">Aplicar Filtro</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="row">
+            <section id="resultados" class="col-md-10 animate__animated animate__fadeIn">
+                <h2 class="text-center">Productos</h2> 
+                <div class="row">
+                </div>
+            </section>
+            <aside id="carrito" class="col-md-2">
+                <h2>Carrito</h2>
+            </aside>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js" integrity="sha384-ZzWtVEHbIY3TCMqPfJtJ7EdC1SNTpqD5C8fqEeq5LGTzI3GlLPDSD9JyNqM+2yVf" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy4Ck4SOF4y4Ck4C2DgHfViXydVeLm+JDM" crossorigin="anonymous"></script>
+</body>
+</html>
